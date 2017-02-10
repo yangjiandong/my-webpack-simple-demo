@@ -1,6 +1,21 @@
 my-webpack-simple-demo
 ======================
 
+2017.02.10
+----------
+
+# add mint-ui
+
+- [参考](https://my.oschina.net/fellowtraveler/blog/760728)
+- eslint 增加 `;` 强制
+  ```
+  // 语句强制分号结尾,warn提示
+  "semi": ["error", "always"],
+  ```
+
+2017.02.09
+----------
+
 # tag 1.0
 
 first..
