@@ -1,6 +1,13 @@
 my-webpack-simple-demo
 ======================
 
+02.14
+-----
+
+# tag 2.0
+
+`git push origin --tags`
+
 2017.02.10
 ----------
 
