@@ -1,5 +1,6 @@
 <template>
   <!-- 绑定click事件hideTooltip -->
+  <!-- 加载时v-cloak来避免显示未编译好的内容 -->
   <div id="main" v-cloak @click="hideTooltip">
     <div class="tooltip" v-if="show_tooltip" @click.stop>
       <input type="text" v-model="text_context" />

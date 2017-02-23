@@ -7,6 +7,7 @@ my-webpack-simple-demo
 # [vue2练习五个小例子笔记](https://segmentfault.com/a/1190000008436978)
 
 - views/Demo1.vue
+  - 加载时, v-cloak来避免显示未编译好的内容
 
 02.14
 -----
