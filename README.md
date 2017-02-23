@@ -1,6 +1,13 @@
 my-webpack-simple-demo
 ======================
 
+02.23
+----
+
+# [vue2练习五个小例子笔记](https://segmentfault.com/a/1190000008436978)
+
+- views/Demo1.vue
+
 02.14
 -----
 

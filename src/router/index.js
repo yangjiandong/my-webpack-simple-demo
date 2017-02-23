@@ -6,6 +6,8 @@ import login from 'views/Login';
 
 Vue.use(Router);
 
+const demo1 = r => require(['views/Demo1'], r);
+
 export default new Router({
   routes: [
     {
@@ -21,6 +23,10 @@ export default new Router({
       path: '/login',
       name: 'login',
       component: login
+    },
+    {
+      path: '/demo1',
+      component: demo1
     }
   ]
 });

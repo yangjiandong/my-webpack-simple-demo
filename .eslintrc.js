@@ -25,5 +25,7 @@ module.exports = {
     'no-debugger': process.env.NODE_ENV === 'production' ? 2 : 0,
     // 语句强制分号结尾,warn提示
     "semi": ["error", "always"],
+    // function 关键字后面有一个空格,warn提示,ignore
+    "space-before-function-paren": ["off", "always"],
   }
 }

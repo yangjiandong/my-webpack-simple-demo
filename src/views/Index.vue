@@ -5,31 +5,31 @@
         <mt-button>登录</mt-button>
       </router-link>
     </mt-header>
-
     <div class="app-logo">
       <img src="../assets/logo.png">
     </div>
+    <div>
+      <router-link to="demo1">双向数据绑定</router-link>
+    </div>
   </div>
 </template>
-
 <script>
-  export default {
-    name: 'index'
-  };
+export default {
+  name: 'index'
+};
 </script>
-
 <style>
-  .head-a {
-    color: #fff;
-  }
+.head-a {
+  color: #fff;
+}
 
-  .app-logo {
-    margin: auto;
-    text-align: center;
-    padding-top: 40px;
-  }
+.app-logo {
+  margin: auto;
+  text-align: center;
+  padding-top: 40px;
+}
 
-  .app-logo img {
-    margin: auto;
-  }
+.app-logo img {
+  margin: auto;
+}
 </style>
