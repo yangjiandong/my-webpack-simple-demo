@@ -1,13 +1,16 @@
 <template>
+
   <!-- 绑定click事件hideTooltip -->
   <!-- 加载时v-cloak来避免显示未编译好的内容 -->
   <div id="main" v-cloak @click="hideTooltip">
+
     <div class="tooltip" v-if="show_tooltip" @click.stop>
       <input type="text" v-model="text_context" />
     </div>
     <p @click.stop="toggleTooltip">{{ text_context }}</p>
   </div>
 </template>
+
 <script>
 export default {
   name: 'demo1',
@@ -27,6 +30,7 @@ export default {
   }
 };
 </script>
+
 <style type="text/css">
 [v-cloak] {
   display: none;

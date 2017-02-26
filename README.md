@@ -1,6 +1,11 @@
 my-webpack-simple-demo
 ======================
 
+02.25
+----
+
+# vue 采用 flowtype
+
 02.23
 ----
 
